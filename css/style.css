@@ -19,7 +19,7 @@ body {
 }
 
 .main-content {
-    height: 6875px;
+    height: max-content;
 }
 
 .header-content {
@@ -256,6 +256,7 @@ body {
     margin: 5%;
     font-size: 1.25rem;
     text-align: justify;
+    text-wrap: wrap;
 
 }
 
