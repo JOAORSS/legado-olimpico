@@ -292,6 +292,12 @@ body{
         width: 80%;
     }
 
+    .main-content__content__foto-roll__roll{
+        img{
+            width: 80%;
+        }
+    }
+
     .main-content__content-one__jogos{
         background-color: #FFF;
         height: 100%;
