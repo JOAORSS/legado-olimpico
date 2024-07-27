@@ -339,6 +339,19 @@ body{
 
     .main-content__legado__container{
         width: 75%;
+        height: fit-content;
+    }
+
+    .main-content__legado__container__img{
+        padding-top: 30px;
+    }
+
+    .main-content__legado__container__h2{
+        font-size: 1.5rem;
+    }
+
+    .main-content__legado__container__paragrafo{
+        font-size: 1rem;
     }
 
 
