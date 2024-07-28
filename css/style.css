@@ -11,12 +11,6 @@ html {
     box-sizing: border-box;
 }
 
-header{
-    img{
-
-    }
-}
-
 body {
     height: 100%;
     box-sizing: border-box;
@@ -49,7 +43,7 @@ body {
 .main-content__subheader {
     background-color: #BE0001;
     padding-top: 90px;
-    padding-bottom: 120px;
+    padding-bottom: 15%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -132,7 +126,7 @@ body {
     scroll-behavior: auto;
     overflow-x: auto;
     overscroll-behavior: contain;
-    width: 100%;
+    
     display: flex;
     flex-direction: row;
     overflow-y: hidden;
@@ -140,6 +134,8 @@ body {
     gap: 10px;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
     img{
         width: 30%;
     }
@@ -200,6 +196,11 @@ body {
     font-weight: 400;
 }
 
+.main-content__content-one__jogos__paragrafo__parte{
+    display: flex;
+
+}
+
 .main-content__content-one__jogos__fotos {
     display: flex;
     align-self: center;
@@ -251,13 +252,19 @@ body {
 }
 
 .main-content__legado__container__img {
-    width: 80%;
-    height: 50%;
+    max-width: 80%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
     align-self: center;
+    border-radius: 10px;
 
 }
 
 .main-content__legado__container__h2 {
+    text-wrap: pretty;
+    align-self: center;
+    width: 90%;
     font-family: "Inter", sans-serif;
     font-size: 2rem;
     font-weight: 400;
@@ -292,10 +299,6 @@ body {
 
 
 @media screen and (max-width: 871px) {
-
-    .header-content{
-           
-    }
 
     .header-content__image{
         max-width: 1000px;
